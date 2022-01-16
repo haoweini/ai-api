@@ -11,4 +11,3 @@ class SMSInference(Model):
     confidence = columns.Float()
     model_version = columns.Text(default='v1')
 
-    
